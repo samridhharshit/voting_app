@@ -1,0 +1,113 @@
+
+.stat{
+    background-size: text-cover;
+    white-space: text-wrap;
+    background-color:rgb(175, 175, 92);
+    width: max-content;
+    opacity: 0.9;
+    margin-top: 5%;
+    margin-right:auto;
+    border-radius:5px;
+    font-size: large;
+    padding: 14px 14px 20px 14px;
+
+  }
+input{
+    padding: 0.5%;
+    }
+.userAuth{
+    float:right;
+    margin-right: 700px;
+    margin-top: 15%;
+    background-color: darkgoldenrod;
+    padding: 14px 14px 20px 14px;
+    border-radius: 5px;
+
+}
+h1{
+    
+    font-size:5.0em;
+    padding: 50px;
+    margin-top:-20px;
+  }
+body{
+    /* background-image: url("/home/samridh/Documents/web_pages/My_Project/images/ishan-seefromthesky-618625-unsplash.jpg");, */
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: Handlee;
+}
+input[type=text], input[type=password] {
+    width: fit-content;
+    padding: 15px;
+    margin: 15px 0 12px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    padding: 14px 0 20px 0;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    border: none;
+}
+
+#PhotoOfMe{
+    float:right;
+    margin-right:350px;
+    margin-top: 5%;
+
+}
+::placeholder { /* Most modern browsers support this now. */
+    color:    #909;
+}
+iframe{
+    padding: inherit;
+    height:25px;
+    border: thistle;
+    cursor: pointer;
+    width: min-content;
+    border: violet;
+}
+button{
+    background-color: rgb(167, 231, 204);
+    padding: 8px 5px 8px 5px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    display: inline-block;
+    border: none;
+    border-radius:5px;
+
+}
+.col-left, .col-right{
+    float:left;
+    background-color: skyblue;
+    width:33.33%;
+    margin-left:0;
+    text-align: center;
+}
+.col-center{
+    text-align: center;
+    float:left;
+    background-color: rgb(148, 109, 109);
+    width:33.34%;
+}
+.center-col{
+    margin-top:300px;
+    margin-left:600px;
+    margin-right:auto;
+    text-align: center;
+    float:left;
+    background-color: rgb(148, 109, 109);
+    width:33.34%;
+}
+.sub{
+    text-align: center;
+    background-size: contain;
+}
