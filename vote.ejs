@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+
+<head>
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body background="./css/images/New Doc 2018-10-14.jpg" alt="manipal logo" />
+<header><img src="./css/images/2955952.png" alt="manipal logo" width="500"></header>
+    <div class="row">
+        <div class="col-left">
+            <p>Student's name- <%= vote.username %> </p>
+        </div>
+        <div class="col-center">
+            <p>branch- <%= vote.branch %> </p>
+        </div>
+        <div class="col-right">
+            <p>year- <%= vote.year %> </p>
+        </div>
+    </div>
+    <form action="/end" method="post">
+        <fieldset class="candidates">
+            <input type="radio" value="Samridh" name="candidates"><strong>Samridh</strong><br><br>
+            <input class="pad" type="radio" value="Narendra Modi" name="candidates"><strong>Narendra Modi</strong><br><br>
+            <input type="radio" value="Nitish Kumar" name="candidates"><strong>Nitish kumar</strong><br><br>
+            <input class="padd" type="radio" value="Rahul Gandhi" name="candidates"><strong>Rahul Gandhi</strong><br><br>
+        </fieldset>
+        <input class="sub" type="submit" value="I agree that I won't be allowed to vote again whatever may the complication be">
+
+
+    </form>
+</body>
+
+</html>
